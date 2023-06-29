@@ -34,4 +34,4 @@ class Java {
 ---
 ## COURSES
 - javarush.com
-- Java Self-Paced Program (EU)
+- Java Self-Paced Program (EPAM, EU)
