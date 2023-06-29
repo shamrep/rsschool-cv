@@ -1,13 +1,17 @@
-# Sasha Sham
+#  __Sasha Sham__
+
 ### Java Developer
 ---
-## CONTACTS
+
+## __CONTACTS__
 - shamrep@gmail.com
 ---
-## EDUCATION
+
+## __EDUCATION__
 - Belarusian State University of Informatics and Radioelectronics
 ---
-## SKILLS
+
+## __SKILLS__
 - Java
 - Spring MVC 
 - SQL, Postgres
@@ -16,13 +20,15 @@
 - Git, Github
 - VSCode, IntelliJ
 ---
-## LANGUAGES
+
+## __LANGUAGES__
 - English (B2)
 - Belarusian (native)
 - Russian (native)
 - Ukrainian (basic)
 ---
-## CODE
+
+## __CODE__
 **Double the integer and return it!**
 ```Java
 class Java {
@@ -32,6 +38,7 @@ class Java {
 }
 ```
 ---
-## COURSES
+
+## __COURSES__
 - javarush.com
 - Java Self-Paced Program (EPAM, EU)
