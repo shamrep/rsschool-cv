@@ -4,28 +4,28 @@
 ---
 
 ## __CONTACTS__
-- shamrep@gmail.com
+* shamrep@gmail.com
 ---
 
 ## __EDUCATION__
-- Belarusian State University of Informatics and Radioelectronics
+* Belarusian State University of Informatics and Radioelectronics
 ---
 
 ## __SKILLS__
-- Java
-- Spring MVC 
-- SQL, Postgres
-- JavaScript (in progress)
-- HTML, CSS
-- Git, Github
-- VSCode, IntelliJ
+* Java
+* Spring MVC 
+* SQL, Postgres
+* JavaScript (in progress)
+* HTML, CSS
+* Git, Github
+* VSCode, IntelliJ
 ---
 
 ## __LANGUAGES__
-- English (B2)
-- Belarusian (native)
-- Russian (native)
-- Ukrainian (basic)
+* English (B2)
+* Belarusian (native)
+* Russian (native)
+* Ukrainian (basic)
 ---
 
 ## __CODE__
@@ -40,5 +40,5 @@ class Java {
 ---
 
 ## __COURSES__
-- javarush.com
-- Java Self-Paced Program (EPAM, EU)
+* javarush.com
+* Java Self-Paced Program (EPAM, EU)
