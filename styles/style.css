@@ -10,7 +10,7 @@ body {
     font-size: 25px;
     line-height: 1.2;
     font-family: 'Open Sans', sans-serif;
-    box-shadow: 20px 5px 5px -5px #979595;
+    box-shadow: 20px 5px 5px -5px rgb(151, 149, 149);
     color: #d4d4ccce;
     background-color: #353844;
 }
@@ -26,8 +26,8 @@ body {
 }
 
 header img {
+    box-shadow: 5px 1px 10px 1px rgb(151, 149, 149);
     border-radius: 35%;
-    box-shadow: 5px 1px 10px 1px #979595;
 }
 
 header {
@@ -110,6 +110,7 @@ main {
     vertical-align: middle;
     text-transform: uppercase;
     letter-spacing: 1px;
+
 }
 
 .right-column .sub-header {
@@ -124,8 +125,8 @@ main {
 }
 
 .courses ul {
-    margin-left: 30px;
     list-style-type: disc;
+    margin-left: 30px;
 }
 
 .courses li {
