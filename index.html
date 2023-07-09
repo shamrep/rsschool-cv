@@ -5,106 +5,142 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cv</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="assets/favicon.ico">
 </head>
 
 <body>
-    <section>
-        <div class="name-wrapper">
-            <h1>Sasha <br />Sham</h1>
-        </div>
-        <div class="contact-info">
-            <ul class="list-titles">
-                <li>Mail</li>
-                <li>Education</li>
-                <li>Home</li>
-            </ul>
-            <ul class="list-content ">
-                <li>shamrep@gmail.com</li>
-                <li>BSUIR</li>
-                <li>Minsk, Belarus</li>
-            </ul>
-        </div>
-        <div class="contact-presentation">
-            Java Developer
-        </div>
-    </section>
-
-    <section class="experience section-padding">
-        <div class="container">
-            <h3 class="experience-title">COURSES</h3>
-
-            <div class="experience-wrapper">
-
-                <div class="company-wrapper">
-                    <div>javarush.com</div>
-                    <div>Dec 2023 - Present</div>
-                </div>
-
-
-                <div class="job-wrapper">
-                    <div class="experience-title">Java Developer </div>
+    <div class="container-main">
+        <div class="two-columns">
+            <div class="left-column">
+                <header>
+                    <img src="assets/img/avatar.jpg" alt="Avatar Picture" width="300" height="300">
                     <div>
-                        <p>Some information</p>
+                        <h1>Sasha<br>Sham</h1>
                     </div>
-                </div>
-
-                <div class="company-wrapper">
-                    <div>epam</div>
-                    <div>Dec 2023 - Present</div>
-                </div>
-
-                <div class="job-wrapper">
-                    <div class="experience-title">Java Developer </div>
                     <div>
-                        <p>Java Self-Paced Program (EPAM, EU)</p>
+                        <h3>Java Developer</h3>
                     </div>
-                </div>
+                </header>
+                <main>
+                    <section class="contacts">
+                        <h3>Contacts</h3>
+                        <ul>
+                            <li>
+                                <img src="assets/icons/email.svg" alt="Email Icon" width="30" height="30">
+                                <p>shamrep@gmail.com</p>
+                            </li>
+                            <li>
+                                <img src="assets/icons/location.svg" alt="Location Icon" width="30" height="30">
+                                <p>Minsk, Belarus</p>
+                            </li>
+
+                        </ul>
+                    </section>
+                    <section class="education">
+                        <h3>Education</h3>
+                        <ul>
+                            <li>
+                                <img src="assets/icons/education.svg" alt="Education Icon" width="30" height="30">
+                                <p>BSUIR</p>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="skills">
+                        <h3>Skills</h3>
+                        <ul>
+                            <li>Java</li>
+                            <li>Spring MVC</li>
+                            <li>SQL / Postgres</li>
+                            <li>Git / Github</li>
+                            <li>HTML / HTML5</li>
+                            <li>CSS</li>
+                            <li>JavaScript (in progress)</li>
+                            <li>VSCode / IntelliJ / Postman</li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h3>Languages</h3>
+                        <ul>
+                            <li>
+                                <p class="language-name">English</p>
+                                <p class="language-level">(B2)</p>
+                            </li>
+                            <li>
+                                <p class="language-name">Russian</p>
+                                <p class="language-level">(Native)</p>
+                            </li>
+                            <li>
+                                <p class="language-name">Belarussian</p>
+                                <p class="language-level">(Native)</p>
+                            </li>
+                            <li>
+                                <p class="language-name">Ukrainian</p>
+                                <p class="language-level">(Basic)</p>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
             </div>
-
-            <div class="section-wrapper">
-                <h3 class="section-title">Skills</h3> 
-                <ul>
-                    <li class="skill-percentage">Java</li>
-                    <li class="skill-percentage">Spring MVC</li>
-                    <li class="skill-percentage">SQL / Postgres</li>
-                    <li class="skill-percentage">Git / Github</li>
-                    <li class="skill-percentage">HTML / HTML5</li>
-                    <li class="skill-percentage">CSS</li>
-                    <li class="skill-percentage">JavaScript (in progress)</li>
-                    <li class="skill-percentage">VSCode / IntelliJ / Postman</li>
-                </ul>
-
-            </div>
-
-            <div class="section-wrapper">
-                <h3 class="section-title">Languages</h3> 
-                <ul>
-                    <li class="skill-percentage">English (B2)</li>
-                    <li class="skill-percentage">Belarusian (native)</li>
-                    <li class="skill-percentage">Russian (native)</li>
-                    <li class="skill-percentage">Ukrainian (basic)</li>
-                </ul>
-            </div>
-
-            <div class="section-wrapper">
-                <h3 class="section-title">Code</h3> 
-                <h4>Double the integer and return it!</h4>
-                <!-- We use the <code> tag to indicate that our text is actually code. -->
-                <pre>
-                    <code>
-                        class Java {
-                            public static int doubleInteger(int i) {
-                              return i * 2;
-                            }
-                        }
-                    </code>
-                  </pre>
-            </div>
-
+            <aside class="right-column">
+                <section class="courses">
+                    <div class="sub-header">
+                        <h3>Courses</h3>
+                    </div>
+                    <ul>
+                        <li>javarush.com</li>
+                        <li>JavaScript Manual on learnjavascript.ru</li>
+                        <li>Java Self-Paced Program (EPAM, EU)</li>
+                    </ul>
+                </section>
+                <section class="about-myself">
+                    <div class="sub-header">
+                        <h3>About Myself</h3>
+                    </div>
+                    <p>I would introduce myself in seven words. Passionate coder, best colleague ever. That pretty much
+                        sums it up,
+                        though at least the last one my former colleagues have to confirm.
+                    </p>
+                    <p>
+                        I try to do a good job in all roles I have in life, and I enjoy the process immensely. Do you
+                        want me to talk about my coding skills and experience now, or will we discuss it later in the
+                        interview?
+                    </p>
+                    <p>I previously completed a 5-month internship at javarush.com where I learned how to design and
+                        implement Java applications.</p>
+                    <p>Sassy, classy with a touch of badassy.</p>
+                </section>
+                <section class="code-example">
+                    <div class="sub-header">
+                        <h3 class="section-title">Code</h3>
+                        <p>Double the integer and return it!</p>
+                        <pre>
+                            <code>
+                                class Java {
+                                    public static int doubleInteger(int i) {
+                                        return i * 2;
+                                    }
+                                }
+                            </code>
+                        </pre>
+                    </div>
+                </section>
+            </aside>
         </div>
-
-    </section>
-
+        <footer>
+            <div>
+                <a class="my-github" href="https://github.com/shamrep/rsschool-cv">
+                    <img class="github-icon" src="./assets/icons/github.svg" alt="Github Icon" width="60" height="60">
+                    <p>Visit my GitHub</p>
+                </a>
+            </div>
+            <p>© 2023</p>
+            <div>
+                <a href="https://rs.school/js-stage0/">
+                    <img src="./assets/icons/rsschool.svg" alt="Rsschool Icon" width="146" height="52">
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
-
 </html>
