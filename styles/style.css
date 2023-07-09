@@ -1,0 +1,169 @@
+body {
+    /* CSS свойство box-sizing определяет как вычисляется общая ширина и высота элемента */
+    box-sizing: border-box;
+    background-color: #c6cacace;
+}
+
+.container-main {
+    width: 1024px;
+    margin: 12px auto;
+    font-size: 25px;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+    box-shadow: 20px 5px 5px -5px rgb(151, 149, 149);
+    color: #d4d4ccce;
+    background-color: #353844;
+}
+
+.two-columns {
+    display: flex;
+}
+
+.left-column {
+    width: 40%;
+    color: #2f3333ce;
+    background-color: #edf0f0ce;
+}
+
+header img {
+    box-shadow: 5px 1px 10px 1px rgb(151, 149, 149);
+    border-radius: 35%;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    line-height: 1.1;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+header h2 {
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 0 30px;
+}
+
+.contacts li img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.contacts li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.contacts ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.education li img {
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.education li p {
+    display: inline;
+    vertical-align: middle;
+}
+
+.education ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+.skills li {
+    font-size: 20px;
+}
+
+.languages li p {
+    font-size: 20px;
+    display: inline;
+    vertical-align: middle;
+}
+
+.language-name {
+    text-transform: uppercase;
+}
+
+.language-level {
+    font-weight: 600;
+}
+
+.right-column h3 {
+    margin: 0 40px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+.right-column .sub-header {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+.about-myself p {
+    margin-bottom: 10px;
+    margin-left: 45px;
+}
+
+.courses ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.courses li {
+    margin-bottom: 10px;
+}
+
+.code-example .sub-header p {
+    margin: 60px;
+    margin-left: -125px;
+}
+
+pre {
+    margin-left: -720px;
+    margin-top: 120px;
+    font-family: monospace;
+    font-size: 1.1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    font-size: 1.0rem;
+    color: #ffffff;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+footer .github-icon {
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
