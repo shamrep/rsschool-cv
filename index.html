@@ -23,7 +23,7 @@
                     </div>
                 </header>
                 <main>
-                    <section class="contacts">
+                    <section class="contacts" id="contacts">
                         <h3>Contacts</h3>
                         <ul>
                             <li>
@@ -37,7 +37,7 @@
 
                         </ul>
                     </section>
-                    <section class="education">
+                    <section class="education" id="education">
                         <h3>Education</h3>
                         <ul>
                             <li>
@@ -46,7 +46,7 @@
                             </li>
                         </ul>
                     </section>
-                    <section class="skills">
+                    <section class="skills" id="skills">
                         <h3>Skills</h3>
                         <ul>
                             <li>Java</li>
@@ -59,7 +59,7 @@
                             <li>VSCode / IntelliJ / Postman</li>
                         </ul>
                     </section>
-                    <section class="languages">
+                    <section class="languages" id="languages">
                         <h3>Languages</h3>
                         <ul>
                             <li>
@@ -83,7 +83,21 @@
                 </main>
             </div>
             <aside class="right-column">
-                <section class="courses">
+                <nav class="header-nav">
+                    <ul class="header-list">
+                        <li class="header-item"><a href="#contacts" class="header-link">Contacts</a></li>
+                        <li class="header-item"><a href="#about" class="header-link">About Me</a></li>
+                        <li class="header-item"><a href="#courses" class="header-link">Courses</a></li>
+                        <li class="header-item"><a href="#code" class="header-link">Code</a></li>
+                    </ul>
+                    <ul class="header-list">
+                        <li class="header-item"><a href="#education" class="header-link">Education</a></li>
+                        <li class="header-item"><a href="#languages" class="header-link">Languages</a></li>
+                        <li class="header-item"><a href="#contacts" class="header-link">Contacts</a></li>
+                        <li class="header-item"><a href="#projects" class="header-link">Projects</a></li>
+                    </ul>
+                </nav>
+                <section class="courses" id="courses">
                     <div class="sub-header">
                         <h3>Courses</h3>
                     </div>
@@ -93,7 +107,7 @@
                         <li>Java Self-Paced Program (EPAM, EU)</li>
                     </ul>
                 </section>
-                <section class="about-myself">
+                <section class="about-myself" id="about">
                     <div class="sub-header">
                         <h3>About Myself</h3>
                     </div>
@@ -110,7 +124,15 @@
                         implement Java applications.</p>
                     <p>Sassy, classy with a touch of badassy.</p>
                 </section>
-                <section class="code-example">
+                <section class="projects">
+                    <div class="sub-header">
+                        <h3>Projects</h3>
+                    </div>
+                    <ul>
+                        <li><a href="https://github.com/shamrep/rsschool-cv" class="projects-link">CV project</a></li>
+                    </ul>
+                </section>
+                <section class="code-example" id="code">
                     <div class="sub-header">
                         <h3 class="section-title">Code</h3>
                         <p>Double the integer and return it!</p>
@@ -129,7 +151,7 @@
         </div>
         <footer>
             <div>
-                <a class="my-github" href="https://github.com/shamrep/rsschool-cv">
+                <a class="my-github" href="https://github.com/shamrep/">
                     <img class="github-icon" src="assets/icons/github.svg" alt="Github Icon" width="60" height="60">
                     <p>Visit my GitHub</p>
                 </a>
@@ -143,4 +165,5 @@
         </footer>
     </div>
 </body>
+
 </html>

@@ -167,3 +167,52 @@ footer a {
     text-decoration: none;
     color: #ffffff;
 }
+
+nav {
+    margin-top: -25px;
+    background-color: #c6cacace;
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header-item {
+    margin: auto;
+}
+
+.header-link {
+    color: #2f3333ce;
+    text-decoration: none;
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-link:active {
+    opacity: .75;
+}
+
+.projects ul {
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+.projects li {
+    margin-bottom: 10px;
+}
+
+.projects-link {
+    text-decoration: none;
+    color: #d4d4ccce;
+}
+
+.projects-link:hover,
+.projects-link:focus,
+.projects-link:active {
+    opacity: .75;
+    color: #d4d4ccce;
+}
